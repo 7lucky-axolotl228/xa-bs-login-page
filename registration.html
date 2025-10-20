@@ -17,26 +17,31 @@
                 <div class="page-header mb-5">
                     <img class="justify-content-center mb-3" src="img/bootstrap-logo.svg" alt="">
                     <h2 class="fw-500 mb-3">Log in to your account</h2>
-                    <p class="m-0">Welcome back! Please enter your details.</p>
+                    <p class="m-0">Start your journey!</p>
                 </div>
 
                 <div class="page-body">
-                    <div class="mb-3 text-start">
-                        <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control mb-3" id="name" placeholder="Enter your name">
+                    <form action="">
+                        <div class="mb-3 text-start">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control mb-3" id="name" placeholder="Enter your name"
+                                required>
 
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control mb-3" id="email" placeholder="Enter your email">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control mb-3" id="email" placeholder="Enter your email"
+                                required>
 
-                        <label for="password" class="form-label">Password</label>
-                        <input type="password" id="password" class="form-control" aria-describedby="passwordHelpBlock"
-                            placeholder="Password">
-                    </div>
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" id="password" class="form-control"
+                                aria-describedby="passwordHelpBlock" placeholder="Password" required>
+                        </div>
 
-                    <div class="d-flex flex-column gap-3 mt-3">
-                        <button class="btn btn-primary text-white">Get started</button>
-                        <button class="btn btn-outline-primary d-flex align-items-center justify-content-center"><img class="me-2" src="img/google-icon.svg" alt="">Sign up with Google</button>
-                    </div>
+                        <div class="d-flex flex-column gap-3 mt-3">
+                            <button class="btn btn-primary text-white" type="submit">Get started</button>
+                            <button class="btn btn-outline-primary d-flex align-items-center justify-content-center">
+                                <img class="me-2" src="img/google-icon.svg" alt="">Sign up with Google</button>
+                        </div>
+                    </form>
 
                     <p class="mt-4 text-secondary">Already have an account? <a href="index.html">Log in</a></p>
                 </div>
